@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+
+<!--Here's a worked example of HTML and CSS from Lab 1!
+	HTML consists of a hierarchy of elements.
+	
+	Each element has an opening tag and (most of the time) a closing tag.
+	For example, the whole document is enclosed in the html element, delimited by the <html> and </html> tags.
+	You can also close tags immediately using a slash before the > symbol: A newline is represented by <br />.
+
+	Each tag can have attributes set as name="value" pairs.
+	For example, the image element needs a source URL for the image file: <img src="dog.jpg" />
+-->
+
+<html>
+<head>
+	<!-- The title shows up in the browser toolbar -->
+	<title>tarfah's Homepage</title>
+    
+	
+    <link rel="stylesheet" href="style">
+    
+    
+    
+    
+</head>
+
+<body>
+	<!--A header for the page-->
+	<h1>tarfah gh</h1>
+       
+	<!--My photo-->
+	<img id="photo" src="data:image/png;base64,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">	
+
+	<!--Divs and spans can be used to logically and structurally organize your page
+		Here we use divs to separate different sections of the page: about, courses, interests and pet information
+		* divs are block elements and are separated by newlines or breaks in the page
+		* spans are inline elements and are displayed without newlines between them
+	-->
+
+	<!--Each div (and any other tag) can have a class and id.
+		The class can be shared with other tags.
+		The id is unique to this tag.
+		The class and id can be selected by CSS rules to style groups of elements differently.
+	-->
+	<div class="section" id="about">
+		<!--An h2 header - smaller than the h1 header-->
+		<h2>About</h2>
+
+		<!--<p> tags are paragraphs have newlines before and after them-->
+		<p>hello!</p>
+		<!--The <a> tag is a link.
+			The text between the <a> and </a> tags is the displayed text.
+			The href attribute has the link's target URL.-->
+		<p>Hi, I'm tarfah I love HCI <a href="http://en.wikipedia.org/wiki/User_interface_design">User Interface Design</a>.</p>		
+	</div>
+
+	<div class="section" id="courses">
+		<h2>Courses</h2>
+		<p>Here are some courses I've taken:</p>
+
+		<!--Tables can be used to group text or images into rows and columns-->
+		<table>
+			<!--Each <tr> is a row-->
+			<tr>
+				<!--Each <th> or <td> is a cell.
+					The number of cells in a row determines the number of columns in the table.
+				-->
+				<th>Course Number</th>
+				<th>Course Title</th>
+				<th>Semester Taken</th>
+			</tr>
+			<tr>
+				<!--A <td> or cell can span multiple columns using the colspan attribute-->
+				<td class="enrollheader" colspan=3>For Credit</td>
+			</tr>
+			<!--We give certain rows the "currentlytaking" class, so we can color them differently in a CSS rule-->
+			<tr class="currentlytaking">
+			<!--here!-->			
+			<tr>
+				<td><a href="http://ai6034.mit.edu/fall12/index.php?title=Main_Page">CSC361</a></td>
+				<td>Artificial Intelligence</td>
+				<td>spring 2018</td>
+			</tr>
+			<tr>
+                <td><a href="http://ai6034.mit.edu/fall12/index.php?title=Main_Page">CSC227</a></td>
+				<td>opreating system</td>
+				<td>spring 2018</td>
+			</tr>
+			<tr>
+				<td><a href="http://stellar.mit.edu/S/course/6/fa13/6.006/">CSC440</a></td>
+				<td>HCI</td>
+				<td>spring 2018</td>
+			</tr>
+			
+		</table>
+	</div>
+
+	<div class="section" id="interests">
+		<h2>Interests</h2>
+		<!--Spans are displayed inline, but allow you to identify text in CSS rules-->
+		I am interested in <span class="serious">HCI</span>, <span class="silly">games</span>, and <span class="silly">youtube videos</span>.
+	</div>
+
+	
+   
+
+	<!--This is the style section.
+		It consists of CSS rules, which could also be included as a separate file.-->
+    <style >
+           		/* body tag selector: define a default font. Never use Comic Sans. */
+		body {
+			font-family: Georgia ;
+           
+		
+            
+		}
+
+		/* .section class selector: set the font of all tags with class="section" */
+		.section {
+			font-family: arial;
+            
+		}
+
+		/* h2 descendants of .section class: set a background color for all h2 text in sections */
+		.section h2 {
+			background-color: rgb(250,150,200);
+			font-family: Georgia;
+			color: maroon;
+		}
+ 
+		/* #courses id with <a> tag selector:
+			set the hover properties of links within #courses element */
+		#courses a:link {
+			color:rgb(100,0,0) ;
+		}
+		#courses a:hover {
+			color:red;
+		}
+		#courses a:active {
+			color:white;
+		}
+		#courses a:visited {
+			color:purple;
+		}
+
+		/* span tag selector: color all span tags red */
+		span {
+			color: purple;
+		}
+
+		/* span with .serious class: set font to Impact */
+		span.serious {
+			font-family: "Impact";
+		}
+
+		/* span with .silly class: set font to Comic Sans */
+		span.silly {
+			font-family: "Comic Sans MS";
+		}		
+
+		/* Put the image on the right */
+		#photo { float: right; }
+
+		/* Table Style! */
+		/* Put borders around the cells */
+		th, td { border: solid 1px black; }
+		/* Collapse or 'merge' the borders into each other*/
+		table { border-collapse: collapse; }
+
+		/* Color every other row (tr) light grey */
+		
+
+		/* Color green the text of currentlytaking rows */
+		tr.currentlytaking {
+			color:green;
+		}
+
+		/* Align and style the "For Credit" and "Listener" cells 	*/
+		td.enrollheader {
+			background-color:white;
+			text-align:center;
+			font-weight:bold;
+		}
+         </style>
+    
+</body>
+</html>
